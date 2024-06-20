@@ -60,3 +60,15 @@
 #carouselExampleIndicators{
     margin-top:30px;
 }
+
+.carousel-item img {
+    width: 100%; /* Ajusta a largura da imagem para 100% do contêiner */
+    height: auto; /* Mantém a proporção original da altura */
+    object-fit: cover; /* Garante que a imagem mantenha sua proporção e preencha o contêiner */
+}
+
+.carousel-inner {
+    max-height: 500px; /* Define uma altura máxima para o carrossel */
+    overflow: hidden; /* Evita que imagens maiores distorçam o layout */
+    max-width: 750px;
+}
